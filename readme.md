@@ -1,6 +1,10 @@
 # HTML Family Tree
 
+By [Colin Devroe](http://cdevroe.com/)
+
 A simple page to show and navigate a family tree.
+
+See [demo family tree](http://cdevroe.com/static-projects/html-family-tree)
 
 ## Donations
 
