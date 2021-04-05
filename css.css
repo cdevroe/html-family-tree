@@ -150,6 +150,6 @@ right connector from last child*/
 
 footer {
 	display: block;
-	position: absolution;
+	position: absolute;
 	bottom: 25px;
 }
