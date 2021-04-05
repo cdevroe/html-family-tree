@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family tree</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body class="drag">
+    <button id="toggle">Show All</button>
+    <p class="info">Tap on each family to reveal their tree.</p>
+    <div class="tree">
+        <ul>
+            <li>
+                <a class="parents">
+                    <div class="parent"><img src="images/people/blank.jpg"> Parent 1 <span class="dob">1762-1850</span></div>
+                    <div class="parent"><img src="images/people/blank.jpg"> Parent 2 <span class="dob">d. 1839</span></div>
+                </a>
+                <ul>
+                    <li>
+                        <a class="parents">
+                            <div class="parent"><img src="images/people/blank.jpg"> Child 1 <span class="dob">1797-1879</span></div>
+                            <div class="parent"><img src="images/people/blank.jpg"> Child 1 Spouse <span class="dob">d. 1874</span></div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a class="parents">
+                                    <div class="parent"><img src="images/people/blank.jpg"> Grand Child 1 <span class="dob">1844-1902</span></div>
+                                    <div class="parent"><img src="images/people/blank.jpg"> Grand Child 1 Spouse <span class="dob">d. 1930</span></div>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a class="parents">
+                                            <div class="parent"><img src="images/people/blank.jpg"> Great Grand Child 1 <span class="dob">1874-1956</span></div>
+                                            <div class="parent"><img src="images/people/blank.jpg"> Great Grand Child 1 Spouse <span class="dob">1885-1975</span></div>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a class="parents">
+                                                    <div class="parent"><img src="images/people/blank.jpg"> Great Great Grand Child 1 <span class="dob">1980-</span></div>
+                                                    <div class="parent"><img src="images/people/blank.jpg"> Great Great Grand Child 1 Spouse <span class="dob">1980-</span></div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a class="parents">
+                                                            <div class="parent"><img src="images/people/blank.jpg"> Great Great Great Grand Child 1 <span class="dob">1980-</span></div>
+                                                            <div class="parent"><img src="images/people/blank.jpg"> Great Great Great Grand Child 1 Spouse <span class="dob">1980-</span></div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="parents">
+                                                            <div class="parent"><img src="images/people/blank.jpg"> Great Great Great Grand Child 2<span class="dob">1980-</span></div>
+                                                            <div class="parent"><img src="images/people/blank.jpg"> Great Great Great Grand Child 2 Spouse <span class="dob">1980-</span></div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li> 
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="images/people/blank.jpg"> Child 2 <span class="dob">1797-1879</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="parents">
+                            <div class="parent"><img src="images/people/blank.jpg"> Child 3 <span class="dob">1797-1879</span></div>
+                            <div class="parent"><img src="images/people/blank.jpg"> Child 3 Spouse <span class="dob">d. 1874</span></div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a class="parents">
+                                    <div class="parent"><img src="images/people/blank.jpg"> Grand Child 3 <span class="dob">1844-1902</span></div>
+                                    <div class="parent"><img src="images/people/blank.jpg"> Grand Child 3 Spouse <span class="dob">d. 1930</span></div>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a class="parents">
+                                            <div class="parent"><img src="images/people/blank.jpg"> Great Grand Child 3 <span class="dob">1874-1956</span></div>
+                                            <div class="parent"><img src="images/people/blank.jpg"> Great Grand Child 3 Spouse <span class="dob">1885-1975</span></div>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a class="parents">
+                                                    <div class="parent"><img src="images/people/blank.jpg"> Great Great Grand Child 3 <span class="dob">1980-</span></div>
+                                                    <div class="parent"><img src="images/people/blank.jpg"> Great Great Grand Child 3 Spouse <span class="dob">1980-</span></div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a class="parents">
+                                                            <div class="parent"><img src="images/people/blank.jpg"> Great Great Great Grand Child 3 <span class="dob">1980-</span></div>
+                                                            <div class="parent"><img src="images/people/blank.jpg"> Great Great Great Grand Child 3 Spouse <span class="dob">1980-</span></div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="parents">
+                                                            <div class="parent"><img src="images/people/blank.jpg"> Great Great Great Grand Child 2<span class="dob">1980-</span></div>
+                                                            <div class="parent"><img src="images/people/blank.jpg"> Great Great Great Grand Child 2 Spouse <span class="dob">1980-</span></div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li> 
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <script language="JavaScript" src="lib/jquery-3.6.0.min.js"></script>
+    <script language="JavaScript" src="lib/jquery.dragscroll.min.js"></script>
+    <script language="JavaScript" src="js.js"></script>
+</body>
+</html>
